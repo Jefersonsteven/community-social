@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap");
+
+* {
+  @apply box-border p-0 m-0;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  @apply bg-[#E6EFF5] w-full h-screen grid place-items-center;
+}
+
+.btn {
+  @apply px-7 py-4 bg-[#C0DF33] shadow-sm text-[#fff] rounded-md max-w-sm hover:bg-[#b3cb47] hover:scale-105 transition-all;
+}
+
+h2 {
+  @apply text-lg font-semibold;
+}
